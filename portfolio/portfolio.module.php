@@ -22,11 +22,11 @@ if( !isset($gCms) ) exit;
 
 define('CMS_PORTFOLIO_VERSION','1.0 RC1');
 
-class Portfolio extends CMSModule
+class portfolio extends CMSModule
 {
 	function GetName()
 	{
-		return 'Portfolio';
+		return 'portfolio';
 	}
 
 	function GetFriendlyName()
